@@ -35,9 +35,12 @@ I created this project to practice Python and learn more about basic password se
     Score: 4 / 5
 
 ## Testing
-I tested the program using a sample password and confirmed that it displayed a strength rating and a score.
+I tested the program with passwords of different strengths:
 
-Additional tests to complete:
-- A short password containing only lowercase letters.
-- A password containing letters and numbers.
-- A longer password containing uppercase letters, lowercase letters, numbers,
+| Test password | Score | Result |
+|---|---|---|
+| `abc` (short, lowercase only) | 1 / 5 | Weak |
+| `Hello123` (uppercase, lowercase and numbers) | 3 / 5 | Moderate |
+| `HelloWorld123!` (14 characters, uppercase, lowercase, numbers and a symbol) | 5 / 5 | Strong |
+
+All three results matched the scoring rules, and the password stayed hidden while typing.
