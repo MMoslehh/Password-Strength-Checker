@@ -44,3 +44,15 @@ I tested the program with passwords of different strengths:
 | `HelloWorld123!` (14 characters, uppercase, lowercase, numbers and a symbol) | 5 / 5 | Strong |
 
 All three results matched the scoring rules, and the password stayed hidden while typing.
+
+## What I Learned
+- How password strength is measured using length and character variety.
+- How to use regular expressions (`re`) to check for patterns in text.
+- How to hide sensitive input with `getpass`.
+- How to use conditional statements to calculate a score.
+- How to manage projects using GitHub.
+
+## Future Improvements
+- Give specific feedback on how to make a weak password stronger.
+- Check passwords against a list of commonly used passwords.
+- Add a graphical interface.
